@@ -1,10 +1,48 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-bottom: 20px;
+  font-family:'Open-sans', sans-serif;
 }
+
+/*NAVBAR*/
+
+ul.nav:nth-child(2) > li > a , ul.nav:nth-child(3) > li > a {
+  color: white;
+}
+
+.navbar .navbar-default {
+  padding-bottom: 0;
+}
+
+.navbar-default {
+  background-color: black;
+  color: white;
+
+}
+
+.navbar-default .container-fluid {
+  width: 70%;
+
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+
+
+.navbar-brand {
+  padding-top: 0;
+}
+
+/*JUMBOTRON*/
 
 .container {
   width: 70%;
+}
+
+.jumbotron .container {
+  height:600px;
 }
 
 .jumbotron {
@@ -12,12 +50,44 @@ body {
   background: url('../img/splash1.jpg') no-repeat center center;
   background-size: cover;
   padding-top: 0px;
+  padding-bottom:9%;
+  margin-bottom: 0;
 }
 
-.navbar {
-  background-color: rgba(0, 0, 0, 0.5);
+#jumbotext {
+  color:white;
+  height: 500px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
 }
 
-.navbar ul li {
-  color: white;
+#jumbotext h1 {
+  font-size: 60px;
+}
+
+#jumbotext p {
+  font-size: 30px;
+}
+
+/*brand tiles */
+#brand-row{
+align-items: flex-end;
+height: 211px;
+margin-top: -8%;
+}
+
+/*PITCH*/
+#pitch {
+  background-color: #cfcfcf;
+}
+
+#pitch-text {
+  margin: 30px 0px;
+}
+
+/*FOOTER */
+.footer-span {
+  display:inline;
 }

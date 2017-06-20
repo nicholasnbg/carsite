@@ -1,84 +1,109 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Invision</title>
+  <title>Invision</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-  </head>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <body>
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img src="http://via.placeholder.com/268x150" alt=""></a>
+      </div>
 
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <!--navbar comes before conatiner, so it goes full width of page -->
-      <nav class="navbar navbar-default">
-        <div class=" container container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"></a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-center text-center">
-              <li><a href="#">Services</a></li>
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">My Work</a></li>
-              <li><a href="#">Contact Me</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-      <div class="container">
-
-
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Dealer Locator</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class='nav navbar-nav navbar-right'>
+        <li><a href="#">Sign In</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <!--navbar comes before conatiner, so it goes full width of page -->
+    <div class="container">
+      <div id="jumbotext">
+        <div>
+          <h1>maximum light on the road...</h1><br>
+          <p>the all new Megalight Ultra +130</p>
+        </div>
       </div>
     </div>
+  </div>
 
+  <section id="pitch">
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <div id="brand-row" class="row">
+        <div id="b1" class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+          <img src="img/brand1.png" alt="">
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div id="b2" class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+          <img src="img/brand2.png" alt="">
+        </div>
+        <div id="b3" class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+          <img src="img/brand3.png" alt="">
+        </div>
+        <div id="b4" class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+          <img src="img/brand4.png" alt="">
         </div>
       </div>
+      <div id='pitch-text' class="row text-center">
+        <h2>Welcome to Invision Sales, a distributor of leading lighting products and technology. <br><small>Select a brand to find your lighting solution.</small></h2>
 
-      <hr>
+      </div>
+    </section>
 
-      <footer>
-        <p>&copy; 2016 Company, Inc.</p>
+    <!-- MAIN FOOTER -->
+    <footer id="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h2>Invision</h2>
+            <p>Established in 2002, Invision Sales is a multifaceted company that specialises in the
+              Australian, New Zealand and Paciﬁc Islands automotive markets.
+              It holds the exclusive distributorship of  Philips Automotive lighting products,
+              and as a result, holds a signiﬁcant share of the automotive market.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+              <div class="footer-span">
+                <i class="fa fa-tags" aria-hidden="true"></i>
+                <h4>Where to Buy</h4>
+                <p>Find your nearest retail outlet</p>
+              </div>
+
+
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+
+            </div>
+          </div>
+        </div>
       </footer>
     </div> <!-- /container -->
 
@@ -90,4 +115,4 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>
   </body>
-</html>
+  </html>
