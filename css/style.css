@@ -4,13 +4,17 @@ body {
   font-family:'Open-sans', sans-serif;
 }
 
+.red {
+  color: red;
+}
+
 /*NAVBAR*/
 
 ul.nav:nth-child(2) > li > a , ul.nav:nth-child(3) > li > a {
   color: white;
 }
 
-.navbar .navbar-default {
+.navbar.navbar-default {
   padding-bottom: 0;
 }
 
@@ -88,6 +92,18 @@ margin-top: -8%;
 }
 
 /*FOOTER */
-.footer-span {
-  display:inline;
+.icon-mid {
+  margin-right: 6px;
+}
+.footer-span  {
+  display:inline-block;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.footer-span-text * {
+  margin: 4px 0px;
 }
