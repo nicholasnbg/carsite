@@ -1,0 +1,23 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 70%;
+}
+
+.jumbotron {
+  height: 600px;
+  background: url('../img/splash1.jpg') no-repeat center center;
+  background-size: cover;
+  padding-top: 0px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul li {
+  color: white;
+}
