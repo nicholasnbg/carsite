@@ -15,6 +15,10 @@ ul.nav:nth-child(2) > li > a , ul.nav:nth-child(3) > li > a {
   color: white;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: white !important;
+}
+
 .navbar.navbar-default {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -62,13 +66,10 @@ ul.nav:nth-child(2) > li > a , ul.nav:nth-child(3) > li > a {
   margin-bottom: 0;
 }
 
+
 #jumbotext {
   color:white;
-  height: 500px;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: flex-end;
-  align-items: flex-end;
+  margin-top: 300px;
 }
 
 #jumbotext h1 {
@@ -82,8 +83,9 @@ ul.nav:nth-child(2) > li > a , ul.nav:nth-child(3) > li > a {
 /*brand tiles */
 #brand-row{
 align-items: flex-end;
-height: 128px;
+height: auto;
 margin-top: -8%;
+margin-bottom: 30px;
 }
 
 #brand-row img {
@@ -97,12 +99,13 @@ margin-top: -8%;
 
 /*PITCH*/
 #pitch {
-  height: 250px;
+  height: auto;
   background-color: #cfcfcf;
 }
 
 #pitch-text {
   margin: 30px 0px;
+
 }
 
 /*FOOTER */

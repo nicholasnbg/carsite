@@ -25,19 +25,26 @@
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         <a class="navbar-brand" href="#"><img src="img/logo-placeholder.png" alt=""></a>
       </div>
-
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Dealer Locator</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class='nav navbar-nav navbar-right'>
-        <li><a href="#"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i>  <strong>Sign In</strong></a></li>
-        <li><a href="#">Register</a></li>
-      </ul>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Dealer Locator</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class='nav navbar-nav navbar-right'>
+          <li><a href="#"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i>  <strong>Sign In</strong></a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
   <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -45,9 +52,11 @@
     <!--navbar comes before conatiner, so it goes full width of page -->
     <div class="container">
       <div id="jumbotext">
-        <div>
-          <h1>maximum light on the road...</h1><br>
-          <p>the all new Megalight Ultra +130</p>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>maximum light on the road...</h1><br>
+            <p>the all new Megalight Ultra +130</p>
+          </div>
         </div>
       </div>
     </div>
@@ -57,16 +66,16 @@
     <div class="container">
       <div id="brand-row" class="row">
         <div id="b1" class="b col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-          <img src="img/brand1.png" alt="">
+          <img class="img-responsive" src="img/brand1.png" alt="">
         </div>
         <div id="b2" class="b col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-          <img src="img/brand2.png" alt="">
+          <img class="img-responsive" src="img/brand2.png" alt="">
         </div>
         <div id="b3" class="b col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-          <img src="img/brand3.png" alt="">
+          <img class="img-responsive" src="img/brand3.png" alt="">
         </div>
         <div id="b4" class="b col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-          <img src="img/brand4.png" alt="">
+          <img class="img-responsive" src="img/brand4.png" alt="">
         </div>
       </div>
       <div id='pitch-text' class="row text-center">
@@ -76,7 +85,7 @@
     </section>
 
     <!-- MAIN FOOTER -->
-    <footer id="main-footer">
+    <section id="main-footer">
       <div class="container">
         <div id="main-footer-row" class="row">
           <div class="left-footer col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
@@ -169,7 +178,7 @@
             </div>
           </div>
 
-        </footer>
+        </section>
       </div> <!-- /container -->
 
 
