@@ -57,11 +57,11 @@ ul.nav:nth-child(2) > li > a , ul.nav:nth-child(3) > li > a {
 }
 
 .jumbotron {
-  height: 600px;
+  height: 0;
   background: url('../img/splash1.jpg') no-repeat center center;
   background-size: cover;
   padding-top: 0px;
-  padding-bottom:9%;
+  padding-bottom:40.25%;
   margin-top: -50px;
   margin-bottom: 0;
 }
@@ -69,11 +69,11 @@ ul.nav:nth-child(2) > li > a , ul.nav:nth-child(3) > li > a {
 
 #jumbotext {
   color:white;
-  margin-top: 300px;
+  margin-top: 25%;
 }
 
 #jumbotext h1 {
-  font-size: 60px;
+  font-size: 400%;
 }
 
 #jumbotext p {
