@@ -216,6 +216,16 @@ margin-bottom: 30px;
    font-size: 50%;
  }
 
+ .jumbotron {
+   height: auto;
+   background: url('../img/splash1.jpg') no-repeat center center;
+   background-size: cover;
+   padding-top: 0px;
+   padding-bottom:30.25%;
+   margin-top: -50px;
+   margin-bottom: 0;
+ }
+
  #brand-row{
      margin-top:20px;
  }
@@ -235,6 +245,9 @@ margin-bottom: 30px;
 
 /* Extra Small Devices, Phones */
    @media only screen and (min-width : 300px) {
+    /* .jumbotron{
+       height: 0;
+     }*/
     #jumbotext h1 {
       font-size: 150%;
     }
@@ -265,7 +278,13 @@ margin-bottom: 30px;
    }
 
    /* Small Devices, Tablets */
+
    @media only screen and (min-width : 768px) {
+     .jumbotron{
+       height: 0;
+       padding-bottom:40.25%;
+     }
+
      #jumbotext h1 {
        font-size: 250%;
      }
@@ -294,6 +313,10 @@ margin-bottom: 30px;
 
    /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
+      .jumbotron{
+        height: 0;
+        padding-bottom:40.25%;
+      }
       #jumbotext h1 {
         font-size: 300%;
       }
@@ -345,6 +368,10 @@ margin-bottom: 30px;
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
+      .jumbotron{
+        height: 0;
+        padding-bottom:40.25%;
+      }
       #brand-row{
           margin-top:-8%;
       }
